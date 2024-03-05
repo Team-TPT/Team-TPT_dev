@@ -7,6 +7,7 @@
 
 public class AgreedInBuddyingContoller
 {
+
   // move only for teams main branch
   public String errormsg{get;set;}
     public boolean validationCheck{get;set;}
