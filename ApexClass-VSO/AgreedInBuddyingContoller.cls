@@ -9,6 +9,7 @@ public class AgreedInBuddyingContoller
 {
 
   // changes made in dev-org-1
+  //Variable declared
   public String errormsg{get;set;}
     public boolean validationCheck{get;set;}
     public Contact c {get;set;}
