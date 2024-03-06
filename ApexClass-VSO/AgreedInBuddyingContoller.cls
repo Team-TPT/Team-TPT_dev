@@ -8,7 +8,6 @@
 public class AgreedInBuddyingContoller
 {
    //declare one string
-
    public string test {get;set;}
   public String errormsg{get;set;}
     public boolean validationCheck{get;set;}
