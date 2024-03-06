@@ -2,7 +2,7 @@
 public Class AgreedInBuddyingContollerTest
 {
 
-    //test class from dev-org-1
+    //test class from the dev-org-1
 Static testMethod void AgreedInBuddyingUnitTest()
    {
          Id countryUser = [SELECT Id FROM User WHERE UserRoleId!='' AND isActive=true LIMIT 1].Id;      
