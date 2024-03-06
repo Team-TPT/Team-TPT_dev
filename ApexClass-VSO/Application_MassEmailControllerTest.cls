@@ -3,6 +3,8 @@ public class Application_MassEmailControllerTest {
 
     static testMethod void ApplicationDeclineMassEmailTest() {
         
+
+        //check conflict
         Profile p = [select id from profile where name='System Administrator']; 
         User u = new User(alias = 'MassEm', email='ApplicationDeclineMassEmailTestuser@testorg.com', 
             emailencodingkey='UTF-8', lastname='Application_MassEmail', languagelocalekey='en_US', 
