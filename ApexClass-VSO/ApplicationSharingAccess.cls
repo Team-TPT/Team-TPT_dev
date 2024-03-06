@@ -11,7 +11,7 @@ Global class ApplicationSharingAccess implements Database.Batchable<sObject>{
 Global Database.QueryLocator start(Database.BatchableContext BC)
 { 
     string query;
-    
+    string Appliaction; //move from feature-1
     //logic for the test class code coverage
     //If part will be execute only when the batch class is executed.        
     if(!Test.isRunningTest()){
