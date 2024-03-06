@@ -2,6 +2,7 @@
 public Class AgreedInBuddyingContollerTest
 {
 
+    //test
 Static testMethod void AgreedInBuddyingUnitTest()
    {
          Id countryUser = [SELECT Id FROM User WHERE UserRoleId!='' AND isActive=true LIMIT 1].Id;      
