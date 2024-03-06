@@ -1,0 +1,20 @@
+C:\Program Files (x86)\sfdx\client\bin\node.exe C:\Program Files (x86)\sfdx\client\bin\run hardis:config:get --level project --jsonC:\Program Files (x86)\sfdx\client\bin\node.exe C:\Program Files (x86)\sfdx\client\bin\run hardis:config:get --level user --jsonC:\Program Files (x86)\sfdx\client\bin\node.exe C:\Program Files (x86)\sfdx\client\bin\run hardis:config:get --level project --jsonC:\Program Files (x86)\sfdx\client\bin\node.exe C:\Program Files (x86)\sfdx\client\bin\run hardis:config:get --level user --jsonC:\Program Files (x86)\sfdx\client\bin\node.exe C:\Program Files (x86)\sfdx\client\bin\run hardis:config:get --level project --json[sfdx-hardis] {}
+[sfdx-hardis] {}
+[sfdx-hardis] Defined "false" as git core.quotepath
+[sfdx-hardis] {}
+[sfdx-hardis] Defined "false" as git core.quotepath
+[sfdx-hardis] Defined "false" as git core.quotepath
+[sfdx-hardis] Updated config file c:\Users\iamba\Downloads\Git Clone Folders\Team-TPT_dev\config\user\.sfdx-hardis.iamba.yml with values: 
+{
+  "installedApps": [
+    "git"
+  ]
+}
+[sfdx-hardis] {"installedApps":["git"]}
+[sfdx-hardis] Updated config file c:\Users\iamba\Downloads\Git Clone Folders\Team-TPT_dev\config\user\.sfdx-hardis.iamba.yml with values: 
+{
+  "installedApps": [
+    "git"
+  ]
+}
+[sfdx-hardis] {"installedApps":["git"]}
