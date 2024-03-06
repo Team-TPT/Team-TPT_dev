@@ -2,6 +2,7 @@
 public class ApplicationSharingAccessTest
 {
 
+    //check assign and approvers 
     static testMethod void updateApplicationtest()
     {                       
             Id countryUser = [SELECT Id FROM User WHERE UserRoleId!='' AND isActive=true LIMIT 1].Id;
