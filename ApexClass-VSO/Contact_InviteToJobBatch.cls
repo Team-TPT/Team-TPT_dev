@@ -4,7 +4,7 @@ global class Contact_InviteToJobBatch implements Database.Batchable<SObject>{
     global  Id JobId;
    
     
-   //constructor
+   //constructor-1
     global Contact_InviteToJobBatch (set<Id> conIdset,Id JbId){
                 contactids=conIdset;
                 JobId=JbId;
