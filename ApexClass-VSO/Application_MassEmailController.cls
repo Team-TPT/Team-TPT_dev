@@ -12,7 +12,7 @@ purpose: Updating status field to decline
 -------------------------------------------------*/ 
  
 public with sharing class Application_MassEmailController {
-
+   //MassEmailCommented
     //Class variables/Properties
     ApexPages.StandardSetController setCon;
     public list<Application__c> lstApplicationItr;
