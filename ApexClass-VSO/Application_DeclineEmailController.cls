@@ -5,7 +5,7 @@ purpose: Updating status field to decline
 -------------------------------------------------*/ 
 global class Application_DeclineEmailController{
     
-    //Require Approvers before merging-1
+    //Require Approvers before merging-2
     Webservice static String SendDeclineEmail(String AppId){
         system.debug('AppId---'+AppId);
         List<application__c> applLst=[select id,Send_Decline_Email__c from application__c where id=:AppId];
