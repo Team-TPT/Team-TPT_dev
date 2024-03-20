@@ -7,6 +7,7 @@
 
 public class AgreedInBuddyingContoller
 {
+
   
   public String errormsg{get;set;}
     public boolean validationCheck{get;set;}
