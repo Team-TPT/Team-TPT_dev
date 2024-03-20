@@ -12,7 +12,7 @@
 
 public without sharing class VSOProjectJobHandler {
        
-    //feature-4 to developer
+    
     private VSOProjectJobHandler()
     {       
             if(!trigger.isExecuting){
