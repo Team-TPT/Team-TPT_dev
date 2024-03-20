@@ -1,7 +1,7 @@
 global class Application_GetRefereeController {
     
 
-    //Add one comment
+    //Add one comment-check approval
     Webservice static String RequestReferee(String Appid){
     	String status='';
         if(Appid!=null && Appid!=''){
