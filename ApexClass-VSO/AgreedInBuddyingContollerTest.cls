@@ -4,6 +4,7 @@ public Class AgreedInBuddyingContollerTest
 
 Static testMethod void AgreedInBuddyingUnitTest()
    {
+    //Comment added
          Id countryUser = [SELECT Id FROM User WHERE UserRoleId!='' AND isActive=true LIMIT 1].Id;      
         Profile p1 = [select id from profile where name='System Administrator'];  
         User u1 = new User(alias = 'ITStrt1', email='Agreebuddy_TestUser1@testorg.com', 
