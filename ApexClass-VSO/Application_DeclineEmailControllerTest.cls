@@ -1,6 +1,7 @@
 @isTest
 public class Application_DeclineEmailControllerTest {
     
+    //Comment added 
     static testMethod void ApplicationSendDeclineEmailTest() {
         Profile p = [select id from profile where name='System Administrator']; 
         User u = new User(alias = 'AppDec', email='ApplicationSendDeclineEmailTestUser@testorg.com', 
